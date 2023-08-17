@@ -171,9 +171,9 @@ label[for="drop-nav"] {
    line-height: 200px;
    color: #fff;
    font-weight: 300;
-   font-style: 3em;
+   font-size: 3em;
    opacity: 0;
-   transition .3s;
+   transition: .3s;
 }
 
 .portfolio-wrapper .portfolio-item h3:hover {
@@ -244,7 +244,7 @@ label[for="drop-nav"] {
 
 @media (max-width: 768px) {
     container {
-        max-width: ; 95%;
+        max-width: 95%;
     }
 
     .portfolio-wrapper .portfolio-item {
